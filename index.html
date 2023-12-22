@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Статьи</title>
+  <link rel="stylesheet" href="assets/css/style.min.css">
+  <link rel="stylesheet" href="assets/css/swiper.min.css">
+  <link rel="stylesheet" href="assets/css/fancybox.css">
+</head>
+<body>
+    
+<!-- Чтобы весь контент подключался в дефолтный шаблон  -->
+
+   
+       <header class="header">
+          <div class="container">
+                  <div class="header__menu menu">
+                      <a class="header__logo" href="#"><img src="assets/img/logo.png" alt="logo"></a>
+                      <nav class="menu__nav">
+                          <ul class="menu__list">
+                              <li>
+                                  <div class="menu__catalog">
+                                     <button class="menu__catalog-btn text-18px">Каталог</button> 
+                                  </div>
+                                  
+                                  <ul class="menu__submenu menu__submenu-js submenu-hover">
+                                      <li class="menu__submenu-content hov submenu-hover_inner" id="pos">
+                                          <img class="menu__submenu-img" src="assets/img/catalog/img-1.png" alt="image">
+                                          <a href="#" class="menu__submenu-links text-18px">Печи</a>
+  
+                                          <ul class="menu__submenu submenu-two-hover">
+                                              <li class="menu__submenu-content submenu-two-hover-inner">
+                                                  <img class="menu__submenu-img" src="assets/img/catalog/img-1.png" alt="image">
+                                                  <a href="#" class="menu__submenu-links text-18px">Подовые печи</a>
+                                                  <ul class="menu__submenu">
+                                                      <li class="menu__submenu-content menu__submenu-content-arrow ">
+                                                          <a href="#" class="menu__submenu-links text-18px">Серия MiniRotor</a>
+                                                          <a href="#" class="menu__submenu-arrow"></a>
+                                                      </li>
+                                                      <li class="menu__submenu-content menu__submenu-content-arrow">
+                                                          <a href="#" class="menu__submenu-links text-18px">Серия RotorSlim</a>
+                                                          <a href="#" class="menu__submenu-arrow"></a>
+                                                      </li>
+                                                      <li class="menu__submenu-content menu__submenu-content-arrow">
+                                                          <a href="#" class="menu__submenu-links text-18px">Серия Rotor</a>
+                                                          <a href="#" class="menu__submenu-arrow"></a>
+                                                      </li>
+                                                  </ul>
+                                              </li>
+  
+                                              <li class="menu__submenu-content submenu-two-hover-inner">
+                                                  <img class="menu__submenu-img" src="assets/img/catalog/img-1.png" alt="image">
+                                                  <a href="#" class="menu__submenu-links text-18px">Ротационные печи</a>
+                                              </li>
+                                              <li class="menu__submenu-content submenu-two-hover-inner">
+                                                  <img class="menu__submenu-img" src="assets/img/catalog/img-1.png" alt="image">
+                                                  <a href="#" class="menu__submenu-links text-18px">Ротационные печи</a>
+                                              </li>
+                                          </ul>
+                                      </li>
+  
+                                      <li class="menu__submenu-content submenu-hover_inner">
+                                          <img class="menu__submenu-img" src="assets/img/catalog/img-2.png" alt="image">
+                                          <a href="#" class="menu__submenu-links text-18px">Тестомесы</a>
+                                      </li>
+  
+                                      <li class="menu__submenu-content submenu-hover_inner">
+                                          <img class="menu__submenu-img" src="assets/img/catalog/img-3.png" alt="image">
+                                          <a href="#" class="menu__submenu-links text-18px">Планетарные миксеры</a>
+                                      </li>
+  
+                                      <li class="menu__submenu-content submenu-hover_inner">
+                                          <img class="menu__submenu-img" src="assets/img/catalog/img-4.png" alt="image">
+                                          <a href="#" class="menu__submenu-links text-18px">Тестораскаточные машины</a>
+                                      </li>
+  
+                                      <li class="menu__submenu-content submenu-hover_inner">
+                                          <img class="menu__submenu-img" src="assets/img/catalog/img-5.png" alt="image">
+                                          <a href="#" class="menu__submenu-links text-18px">Расстоечные камеры</a>
+                                      </li>
+  
+                                      <li class="menu__submenu-content submenu-hover_inner">
+                                          <img class="menu__submenu-img" src="assets/img/catalog/img-6.png" alt="image">
+                                          <a href="#" class="menu__submenu-links text-18px">Тестоделители</a>
+                                      </li>
+  
+                                      <li class="menu__submenu-content submenu-hover_inner">
+                                          <img class="menu__submenu-img" src="assets/img/catalog/img-7.png" alt="image">
+                                          <a href="#" class="menu__submenu-links text-18px">Хлеборезки</a>
+                                      </li>
+  
+                                      <li class="menu__submenu-content submenu-hover_inner">
+                                          <img class="menu__submenu-img" src="assets/img/catalog/img-8.png" alt="image">
+                                          <a href="#" class="menu__submenu-links text-18px">Измельчители сухарей</a>
+                                      </li>
+  
+                                      <li class="menu__submenu-content submenu-hover_inner">
+                                          <img class="menu__submenu-img" src="assets/img/catalog/img-9.png" alt="image">
+                                          <a href="#" class="menu__submenu-links text-18px">Дозатор воды</a>
+                                      </li>
+  
+                                      <li class="menu__submenu-content submenu-hover_inner">
+                                          <img class="menu__submenu-img" src="assets/img/catalog/img-10.png" alt="image">
+                                          <a href="#" class="menu__submenu-links text-18px">Аксессуары</a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="menu__link  menu__link-hidden">
+                                  <a href="#">Где купить</a>
+                              </li>
+                              <li class="menu__link menu__link-hidden">
+                                  <a href="#">Новости и акции</a>
+                              </li >
+                              <li class="menu__link menu__link-hidden">
+                                  <a href="#">О компании</a>
+                              </li>
+                          </ul>
+  
+                          <div class="menu__wrapper">
+                                  <form>
+                                      <div class="menu-form">
+                                          <input class="menu-form-input"  type="text" placeholder="Поиск..." id="search-focus">
+                                          <button class="menu-form_loop"></button>
+                                      </div>
+                                  </form>
+  
+                              
+                              <ul class="menu__language">
+                                  <li class="menu__language-inner text-16px white">
+                                      RU
+                                  </li>
+                              </ul>
+      
+                              <div class="menu__btn">
+                                <a class="btn-common btn-white" href="#">В магазин</a>  
+                              </div>
+                          </div>
+                          <div class="menu__icon">
+                              <span></span>
+                          </div>
+                      </nav>
+                      <div class="menu__mobile">
+                          <div class="container">
+                              <div class="menu__mobile-wrapper">
+                                  <div class="accordion" id="accordion-3">
+                                      <div class="accordion__item black">
+                                              <div class="accordion__header menu__mobile-header titel-h4-26px">
+                                                  Каталог
+                                              </div>
+                                              <div class="accordion__body">
+                                                  <div class="accordion__content">
+                                                      <div class="accordion__item">
+                                                          <div class="accordion__header menu__mobile-inner  accordion__header-arrow">
+                                                              <img src="assets/img/catalog/img-1.png" alt="img"> 
+                                                              <p class="text-18px-16px">Печи</p>
+                                                          </div>
+                                                          <div class="accordion__body pl-20px">
+                                                              <div class="accordion__content ">
+                                                                <div class="accordion__item">
+                                                                  <div class="accordion__header menu__mobile-inner accordion__header-arrow ">
+                                                                      <img src="assets/img/catalog/img-11.png" alt="img"> 
+                                                                      <p class="text-18px-16px">Подовые печи</p>
+                                                                  </div>
+                                                                  <div class="accordion__body pl-20px">
+                                                                    <div class="accordion__content">
+                                                                      <button class="menu__mobile-inner_btn text-18px-16px button-text">Серия MiniROTOR</button>
+                                                                      <button class="menu__mobile-inner_btn text-18px-16px button-text">Серия ROTOR Slim</button>   
+                                                                      <button class="menu__mobile-inner_btn text-18px-16px button-text">Серия ROTOR</button>
+                                                                    </div>
+                                                                  </div>
+                                                                </div>
+                                          
+                                                                <div class="accordion__item">
+                                                                  <div class="accordion__header menu__mobile-inner accordion__header-arrow ">
+                                                                      <img src="assets/img/catalog/img-12.png" alt="img"> 
+                                                                      <p class="text-18px-16px">Ротационные печи</p>
+                                                                  </div>
+                                                                  <div class="accordion__body pl-20px">
+                                                                    <div class="accordion__content">
+                                                                      <button class="menu__mobile-inner_btn text-18px-16px button-text">Серия MiniROTOR</button>
+                                                                      <button class="menu__mobile-inner_btn text-18px-16px button-text">Серия ROTOR Slim</button>   
+                                                                      <button class="menu__mobile-inner_btn text-18px-16px button-text">Серия ROTOR</button>
+                                                                    </div>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                      </div> 
+                                                  </div>
+                                              </div>
+                                      </div>
+                                      <div class="menu__mobile-flex">
+                                          <a href="#" class="menu__mobile-header titel-h4-26px">
+                                              Где купить
+                                          </a>             
+                                          <a href="#" class="menu__mobile-header titel-h4-26px">
+                                              Новости и акции
+                                          </a>         
+                                          <a href="#" class="menu__mobile-header titel-h4-26px">
+                                              О компании
+                                          </a>                
+                                      </div>
+                                  
+  
+                                  </div>
+                              </div>
+                              <div class="menu__mobile-link mt-40px ">
+                                  <a href="#" class="menu__mobile-link_wrap menu__mobile-link_wrap-line pb-20px">
+                                      <img src="assets/img/link-mobile.svg" alt="link">
+                                      <p class="text-18px-16px">Перейти в интернет-магазин</p>
+                                  </a>
+                                  <a href="mailto:info@wlbake.com" class="menu__mobile-link_wrap">
+                                      <img src="assets/img/mail.svg" alt="link">
+                                      <p class="text-18px-16px">info@wlbake.com</p>
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+  
+  
+              </div>
+              <div class="header__drop drop">
+                  <div class="container">
+                      <div class="drop__content">
+                          <div class="drop-close">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                  <path d="M23.542 23.5421L8.45709 8.45715" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                                  <path d="M23.5429 8.45715L8.45796 23.5421" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                                  </svg>
+                          </div>
+                          <div class="drop__content-wrap">
+                              <h4 class="titel-26px white">Категории</h4>
+                              <div class="search__categories-inner">
+                                  <a href="#" class="search__categories-oval text-18px black">
+                                      Спиральные тестомесы
+                                  </a>
+                                  <a href="#" class="search__categories-oval text-18px black">
+                                      Вилочные тестомесы
+                                  </a>
+                                  <a href="#" class="search__categories-oval text-18px black">
+                                      Двуручные тестомесы
+                                  </a>
+                              </div>
+                         </div>  
+                         <div class="drop__content-wrap">
+                              <div class="drop__content-wrap-titel">
+                                  <h4 class="titel-26px white">Товары</h4>
+                                  <a class="links text-18px white" href="#">
+                                      Смотреть все
+                                   </a>
+                              </div>
+                              <div class="drop__content-wrap_inner">
+                                  <a class="drop-product">
+                                      <div class="drop-product-img">
+                                          <img src="assets/img/bake-1.png" alt="bake">
+                                      </div>
+                                      <div class="drop-product__inner">
+                                          <div class="drop-product__inner-text">
+                                              <p class="text-18px-light">Тестораскаточная машина DST SM 500</p>
+                                          </div>
+                                          <div class="drop-product__inner-cost">
+                                              <p class="text-18-accent">15541 EUR</p>
+                                          </div>
+                                      </div>
+                                  </a> 
+                                  
+                                  <a class="drop-product">
+                                      <div class="drop-product-img">
+                                          <img src="assets/img/bake-1.png" alt="bake">
+                                      </div>
+                                      <div class="drop-product__inner">
+                                          <div class="drop-product__inner-text">
+                                              <p class="text-18px-light">Тестораскаточная машина DST SM 500</p>
+                                          </div>
+                                          <div class="drop-product__inner-cost">
+                                              <p class="text-18-accent">15541 EUR</p>
+                                          </div>
+                                      </div>
+                                  </a> 
+  
+                                  <a class="drop-product">
+                                      <div class="drop-product-img">
+                                          <img src="assets/img/bake-1.png" alt="bake">
+                                      </div>
+                                      <div class="drop-product__inner">
+                                          <div class="drop-product__inner-text">
+                                              <p class="text-18px-light">Тестораскаточная машина DST SM 500</p>
+                                          </div>
+                                          <div class="drop-product__inner-cost">
+                                              <p class="text-18-accent">15541 EUR</p>
+                                          </div>
+                                      </div>
+                                  </a> 
+                                  <a class="drop-product">
+                                      <div class="drop-product-img">
+                                          <img src="assets/img/bake-1.png" alt="bake">
+                                      </div>
+                                      <div class="drop-product__inner">
+                                          <div class="drop-product__inner-text">
+                                              <p class="text-18px-light">Тестораскаточная машина DST SM 500 с увлажнителем воздуха</p>
+                                          </div>
+                                          <div class="drop-product__inner-cost">
+                                              <p class="text-18-accent">15541 EUR</p>
+                                          </div>
+                                      </div>
+                                  </a> 
+                              </div>
+                          </div>  
+                      </div>
+  
+                      <div class="drop__unfortunately text-26px-cl-light">
+                          К сожалению, по вашему запросу ничего не найдено
+                      </div>
+                  </div>
+              </div>
+      </header>   
+  <main class="pt-60px">
+      
+      <section class="catering pb-80px">
+          <div class="container">
+              <div class="catering__shell">
+                  <div class="catering__shell-left">
+                      <div class="breadcrumds mb-40px">
+                          <div class="breadcrumds__inner">
+                            <ul class="breadcrumds__inner-list breadcrumds__inner-list_catering">
+                              <li class="breadcrumds__inner-list-link">
+                                <a class="breadcrumds__inner-list-link_befor text-14px-middle text-hover-black" href="#">Главная</a>
+                              </li>
+                              <li class="breadcrumds__inner-list-link">
+                                <a class="breadcrumds__inner-list-link_befor text-14px-middle text-hover-black" href="#">Новости и акции</a>
+                              </li>
+                              <li class="breadcrumds__inner-list-item">
+                                <span class="text-14px-black">Российский общепит уходит в доставку</span>
+                              </li>
+                            </ul>
+                          </div>
+                      </div>
+      
+                      <h2 class="catering__shell-left_titel titel-h2">Российский общепит уходит в доставку</h2> 
+      
+                      <div class="catering__shell-inner">
+                          <p class="text-16px-dark">05.07.2023</p>
+                          <div class="catering__shell-inner-time text-16px-dark">7 минут</div>
+                      </div>
+                  </div>
+  
+                  <div class="catering__shell-img">
+                      <img src="assets/img/article-1.jpg" alt="article">
+                  </div>
+              </div>
+          </div>
+      </section>
+  
+      <section class="info pb-160px">
+          <div class="container">
+              <div class="info__wrapper">
+                  <div class="info__content">
+                      <p class="text-22px pb-100px">Столичный рынок уже перенасыщен, в то время как в регионах есть потенциал для развития: ещё треть компаний сегмента по всей стране планируют в ближайшие пару лет запустить доставку. Однако этому может помешать дефицит курьеров, за которых борются и ретейлеры. Сейчас в России 61% заведений общепита используют доставку блюд, что в полтора раза больше, чем два года назад, говорится в совместном исследовании Data Insight и ФРиО. Почти треть ресторанов пользуется доставкой внешних сервисов, 17% сами привлекают курьеров, 15% сочетают оба варианта.</p>
+      
+                      <h3 class="titel-42px-white black pb-60px">Российский общепит уходит в доставку</h3>
+      
+                      <div class="info__content-situation">
+                          <h4 class="titel-h4-26px">О ситуации</h4>
+      
+                          <p class="text-22px">Сложившаяся ситуация, как поясняют аналитики, меняет сложившуюся тенденцию, когда лидерами по числу ресторанов с доставкой традиционно были Москва и Подмосковье. Сейчас, по подсчётам <a class="blue" href="#">Data Insight</a>, в этих регионах доставкой пользуются 62% и 66% заведений соответственно. В то же время в Санкт-Петербурге — 64% против 40% два года назад. В городах-миллионниках этот показатель вырос с 40% до 61%, в городах с населением от 500 тыс. человек — с 41% до 59%, в населённых пунктах с численностью более 100 тыс. жителей — с 40% до 60%. Таким образом, регионы уменьшили разрыв по уровню проникновения доставки с Москвой и Подмосковьем:
+                          </p>
+      
+                          <ol class="info__content-situation-list">
+                              <li class="info__content-situation-list_item text-22px">
+                                  В городах-миллионниках этот показатель вырос с 40% до 61%
+                              </li>
+                              <li class="info__content-situation-list_item text-22px">
+                                  Сейчас, по подсчётам Data Insight, в этих регионах доставкой пользуются 62% и 66% заведений соответственно.
+                              </li>
+                          </ol>
+      
+                          <p class="text-22px">В столице жёсткая конкуренция в доставке из заведений и сам рынок уже достаточно насыщен, в то время как в регионах рынок ещё на стадии формирования и привлечь клиента гораздо легче, отмечают в ГК «Росинтер Ресторантс». Руководитель ресторанного направления «Яндекс.Еды» и «Маркет Деливери» Глеб Доброрадных говорит, что количество заказов в регионах с 2019 года выросло в 16 раз, при этом в Петербурге — в 5,5 раза, в Москве — в 2,5 раза. Доставка стала привычной частью жизни сначала в столице, а сейчас и в регионах, добавляет он.</p>
+                      </div>
+                      <div class="info__content_img">
+                          <img src="assets/img/article-2.jpg" alt="article">
+                      </div>
+      
+                      <div class="info__content-situation pb-60px">
+                          <p class="text-22px">Доставка стала привычной частью жизни сначала в столице, а сейчас и в регионах, добавляет он:</p>
+      
+                          <ol class="info__content-situation-list">
+                              <li class="info__content-situation-list_item text-22px">
+                                  <span class="accent">Чтобы самостоятельно не решать кадровую проблему</span> с курьерами, рестораторы пользуются услугами агрегаторов. Организовать свою службу доставки и обеспечить поток заказов через собственный сайт или приложение ресторатору гораздо сложнее, чем воспользоваться услугами агрегаторов, где доставка и размещение уже входит в комиссию.
+                              </li>
+                              <li class="info__content-situation-list_item text-22px">
+                                  <span class="accent">На долю доставки сейчас приходится</span> четверть от общего числа заказов в заведениях общепита. Для потребителей онлайн-заказ — это возможность познакомиться с новым заведением, а для ресторанов — привлечь новых лояльных гостей.
+                              </li>
+      
+                              <li class="info__content-situation-list_item text-22px">
+                                  <span class="accent">Тем не менее</span>
+                                   пока активное распространение доставки на ресторанном рынке не закончилось. Около 29% заведений, у которых нет доставки в данный момент, планируют подключить её в перспективе двух лет. Однако рост популярности доставки у потребителей будет расти только в случае экономического роста, так как в кризис доставка — это первое, от чего отказываются потребители, резюмирует Шестов.
+                              </li>
+                          </ol>
+                      </div>
+      
+                      <div class="info__content-situation"> 
+                          <h4 class="titel-h4-26px">О ситуации</h4>
+      
+                          <p class="text-22px">Сложившаяся ситуация, как поясняют аналитики, меняет сложившуюся тенденцию, когда лидерами по числу ресторанов с доставкой традиционно были Москва и Подмосковье. Сейчас, по подсчётам <a class="blue" href="#">Data Insight</a>, в этих регионах доставкой пользуются 62% и 66% заведений соответственно. В то же время в Санкт-Петербурге — 64% против 40% два года назад. В городах-миллионниках этот показатель вырос с 40% до 61%, в городах с населением от 500 тыс. человек — с 41% до 59%, в населённых пунктах с численностью более 100 тыс. жителей — с 40% до 60%. 
+                          </p>
+      
+                          <p class="text-22px">Таким образом, регионы уменьшили разрыв по уровню проникновения доставки с Москвой и Подмосковьем:</p>
+      
+                          <ul class="info__content-situation-circle info__content-situation-point">
+                              <li class="text-22px">В столице жёсткая конкуренция в доставке из заведений и сам рынок уже достаточно насыщен, в то время как в регионах рынок ещё на стадии формирования и привлечь клиента гораздо легче, отмечают в ГК «Росинтер Ресторантс».</li>
+                              <li class="text-22px">Доставка стала привычной частью жизни сначала в столице, а сейчас и в регионах, добавляет он.</li>
+                          </ul>
+                          <p class="text-22px">
+                              В столице жёсткая конкуренция в доставке из заведений и сам рынок уже достаточно насыщен, в то время как в регионах рынок ещё на стадии формирования и привлечь клиента гораздо легче, отмечают в ГК «Росинтер Ресторантс». Руководитель ресторанного направления «Яндекс.Еды» и «Маркет Деливери» Глеб Доброрадных говорит, что количество заказов в регионах с 2019 года выросло в 16 раз, при этом в Петербурге — в 5,5 раза, в Москве — в 2,5 раза. Доставка стала привычной частью жизни сначала в столице, а сейчас и в регионах, добавляет он.
+                          </p>
+                      </div>
+      
+                      <div class="info__content-item">
+                          <p class="text-22px white">В столице жёсткая конкуренция в доставке из заведений и сам рынок уже достаточно насыщен, в то время как в регионах рынок ещё на стадии формирования и привлечь клиента гораздо легче, отмечают в ГК «Росинтер Ресторантс». Руководитель ресторанного направления «Яндекс.Еды» и «Маркет Деливери» Глеб Доброрадных говорит, что количество заказов в регионах с 2019 года выросло в 16 раз, при этом в Петербурге — в 5,5 раза, в Москве — в 2,5 раза. Доставка стала привычной частью жизни сначала в столице, а сейчас и в регионах, добавляет он.</p>
+                      </div>
+       
+                      <p class="text-22px pb-40px-30px ">Сложившаяся ситуация, как поясняют аналитики, меняет сложившуюся тенденцию, когда лидерами по числу ресторанов с доставкой традиционно были Москва и Подмосковье. Сейчас, по подсчётам <a class="blue" href="#">Data Insight</a>, в этих регионах доставкой пользуются 62% и 66% заведений соответственно. В то же время в Санкт-Петербурге — 64% против 40% два года назад. В городах-миллионниках этот показатель вырос с 40% до 61%, в городах с населением от 500 тыс. человек — с 41% до 59%, в населённых пунктах с численностью более 100 тыс. жителей — с 40% до 60%. </p>
+      
+                      <div class="info__content-imgTwo">
+                          <div class="info__content-imgTwo_img">
+                              <img src="assets/img/article-3.jpg" alt="article">
+                          </div>
+                          <div class="info__content-imgTwo_img">
+                              <img src="assets/img/article-3.jpg" alt="article">
+                          </div>
+                      </div>
+      
+                      <p class="text-22px">
+                          В столице жёсткая конкуренция в доставке из заведений и сам рынок уже достаточно насыщен, в то время как в регионах рынок ещё на стадии формирования и привлечь клиента гораздо легче, отмечают в ГК «Росинтер Ресторантс». Руководитель ресторанного направления «Яндекс.Еды» и «Маркет Деливери» Глеб Доброрадных говорит, что количество заказов в регионах с 2019 года выросло в 16 раз, при этом в Петербурге — в 5,5 раза, в Москве — в 2,5 раза. Доставка стала привычной частью жизни сначала в столице, а сейчас и в регионах, добавляет он.
+                      </p>
+                  </div>
+      
+                  <article class="article">
+                      <h4 class="article-titel text-32px-black">Статьи по теме:</h4>
+  
+                      <div class="article__wrap">
+                          <a href="#" class="card card-article">
+                              <div class="card-img">
+                                  <img src="assets/img/img-1.jpg" alt="хлеб">
+                              </div>
+      
+                              <div class="card-rectangle">
+                                  <div class="card-rectangle-oval">
+                                      <p class="text-14px-black">#Акция</p>
+                                  </div>
+                                  <div class="card-rectangle-text card-rectangle-text_min">
+                                      <p class="text-26px-black">Забирай два по цене двух! А если не хочешь, не забирай.</p>
+                                  </div>
+                              </div>
+                          </a>
+      
+                          <a href="#" class="card card-article">
+                              <div class="card-img">
+                                  <img src="assets/img/img-2.jpg" alt="хлеб">
+                              </div>
+      
+                              <div class="card-rectangle">
+                                  <div class="card-rectangle-oval">
+                                      <p class="text-14px-black">#Акция</p>
+                                  </div>
+                                  <div class="card-rectangle-text card-rectangle-text_min">
+                                      <p class="text-26px-black">Российский общепит уходит в доставку </p>
+                                  </div>
+                              </div>
+                          </a>
+      
+                          <a href="#" class="card card-article card-article-tree">
+                              <div class="card-img">
+                                  <img src="assets/img/img-3.jpg" alt="хлеб">
+                              </div>
+      
+                              <div class="card-rectangle">
+                                  <div class="card-rectangle-oval">
+                                      <p class="text-14px-black">#Акция</p>
+                                  </div>
+                                  <div class="card-rectangle-text card-rectangle-text_minthree">
+                                      <p class="text-26px-black">-15% на все</p>
+                                  </div>
+                              </div>
+                          </a>
+                      </div>
+                  </article>
+              </div>
+          </div>
+      </section>
+  </main>
+  <footer class="footer">
+      <div class="container">
+          <div class="footer__wrapper">
+              <div class="footer__wrapper-top">
+                  <nav class="footer__wrapper-top-nav">
+                      <ul class="footer__wrapper-top-nav-list">
+                          <li class="footer__wrapper-top-nav-list-link"><a class="text-18px-white text-hover-accent" href="#">Каталог</a></li>
+                          <li class="footer__wrapper-top-nav-list-link"><a class="text-18px-white text-hover-accent" href="#">Где купить</a></li>
+                          <li class="footer__wrapper-top-nav-list-link"><a class="text-18px-white text-hover-accent" href="#">Новости и акции</a></li>
+                          <li class="footer__wrapper-top-nav-list-link"><a class="text-18px-white text-hover-accent" href="#">О компании</a></li>
+                          <li class="footer__wrapper-top-nav-list-link"><a class="text-18px-white text-hover-accent" href="mailto:info@wlbake.com">info@wlbake.com</a></li>
+                      </ul> 
+                      
+                      <div class="footer__wrapper-top_btns">
+                          <button data-modal="question" class="btn-common btn-white btn-modal">Задать вопрос</button>
+                          <button data-modal="subscription" class="btn-common btn-transparent-white btn-modal">Подписаться на рассылку</button>
+                      </div>
+                  </nav>
+              </div>
+  
+              <div class="footer__wrapper-bottom">
+                  <p class="text-12px-middle">&copy; 2023 Все права защищены</p>
+                  <a href="#" class="text-12px-middle">Политика конфиденциальности</a>
+              </div>
+          </div>
+      </div>
+  </footer>
+  
+      <div class="container">
+              <!-- Будьте в курсе свежих новостей и актуальных новинок! -->
+          <div class="overlay">
+              <div class="modal js-modal" data-modal="subscription">
+                  <div class="modal__close">&times;</div>
+                  <div class="modal__content">
+                      <div class="modal__content-inner">
+                          <h4 class="modal__title titel-h4-26px">Будьте в курсе свежих новостей и актуальных новинок!</h4>
+                          <div class="modal__text text-18px-light">
+                              Вы сможете получить письма с выгодными предложениями и скидками.
+                          </div>
+                      </div>
+                      <div class="modal__content-inner">
+                          <input autocomplete="off" required minlength="3" placeholder="Ваше имя" name="name" type="text" class="modal__input">
+                          <input autocomplete="off" required minlength="3" placeholder="Ваша почта" name="email" type="email" class="modal__input">
+                      </div>
+      
+                      <div class="modal__content-inner modal__content-inner_center">
+                          <button class="btn-common btn-black modal-btn">Подписаться</button>
+                          
+                          <p class="modal__content-inner_agreement text-14px black">
+                              Нажимая кнопку “Подписаться” вы соглашаетесь на обработку <a class="blue" href="#">персональных данных</a>
+                          </p>
+                      </div>
+                  </div>
+              </div>
+  
+              <!-- Задайте вопрос  -->
+              <div class="modal js-modal" data-modal="question">
+                  <div class="modal__close">&times;</div>
+                  <div class="modal__content">
+                      <div class="modal__content-inner">
+                          <h4 class="modal__title titel-h4-26px">Задайте вопрос</h4>
+                          <div class="modal__text text-18px-light">
+                              Задайте свой вопрос и мы постараемся ответить вам в ближайшее время
+                          </div>
+                      </div>
+                      <div class="modal__content-inner">
+                          <input autocomplete="off" required minlength="3" placeholder="Ваше имя" name="name" type="text" class="modal__input">
+                          <input autocomplete="off" required minlength="3" placeholder="Ваш телефон" name="email" type="tel" class="modal__input">
+  
+                          
+                          <div class="modal__content-inner_message">
+                              <textarea autocomplete="off" placeholder="Оставьте ваш вопрос"></textarea>
+                          </div>
+                      </div>
+      
+                      <div class="modal__content-inner modal__content-inner_center">
+                          <button class="btn-common btn-black modal-btn">Отправить</button>
+                          
+                          <p class="modal__content-inner_agreement text-14px black">
+                              Нажимая кнопку “Отправить” вы соглашаетесь на обработку <a class="blue" href="#">персональных данных</a>
+                          </p>
+                      </div>
+                  </div>
+              </div>
+  
+          <!-- Подписка оформлена! -->
+          <!-- <div class="modal modal-min">
+                  <div class="modal__close">&times;</div>
+                  <div class="modal__content">
+                      <div class="modal__content-inner">
+                          <h4 class="modal__title titel-h4-26px">Подписка оформлена!!</h4>
+                      </div>
+                  </div>
+              </div> -->
+  
+              <!-- ошибка -->
+          <!-- <div class="modal modal-min" id="eror">
+              <div class="modal__close">&times;</div>
+              <div class="modal__content">
+                      <div class="modal__content-inner">
+                          <h4 class="modal__title titel-h4-26px">Ошибка!</h4>
+                          <div class="modal__text text-18px-light">
+                              Произошла какая-то ошибка, форма не отправлена,  пожалуйста попробуйте еще раз.
+                      </div>
+                  </div>
+              </div>
+          </div> -->
+  
+          <!-- Cпасибо! -->
+          <!-- <div class="modal modal-min" id="thanks">
+              <div class="modal__close">&times;</div>
+              <div class="modal__content">
+                  <div class="modal__content-inner">
+                      <h4 class="modal__title titel-h4-26px">Cпасибо!</h4>
+                      <div class="modal__text text-18px-light">
+                          Ваш вопрос отправлен.
+                      </div>
+                  </div>
+              </div>
+          </div> -->
+              
+          </div>
+      </div>  
+    <script src="assets/js/fancybox.umd.js"></script>
+    <script src="assets/js/youtube.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/ringe.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/accordion.js"></script>
+    <script src="assets/js/modal.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
